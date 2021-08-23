@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #923a83,
+    #a34e9c,
+    #b361b5,
+    #c375cf,
+    #d28aea
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.users {
+  width: 40%;
+}
+
+.card {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.63);
+  text-align: left;
+  padding: 10px 50px 10px 0;
+}
+
+.imgcont {
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgcont img {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.dets h3 {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.dets p {
+  margin: 0;
+}
+
+.btncont {
+  margin-left: auto;
+}
+
+.formcont {
+  padding: 30px;
+}
